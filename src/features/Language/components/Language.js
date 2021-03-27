@@ -2,7 +2,7 @@ import React from "react";
 
 const Language = () => (
   <div>
-    <p>Here is the Langauge page</p>
+    <p className="text-purple-600">Here is the Langauge page</p>
   </div>
 );
 
