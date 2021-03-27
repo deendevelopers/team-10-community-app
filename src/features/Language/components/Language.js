@@ -1,8 +1,10 @@
 import React from "react";
 
+import QuestionLayout from '../../../layouts/QuestionLayout'
+
 const Language = () => (
   <div>
-    <p className="text-purple-600">Here is the Langauge page</p>
+    <QuestionLayout />
   </div>
 );
 
