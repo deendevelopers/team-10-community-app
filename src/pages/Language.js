@@ -1,5 +1,5 @@
 import React from "react";
-import LanguageComponent from "../features/Language/components/Language";
+import LanguageComponent from "../features/language/components/Language";
 
 const Language = () => <LanguageComponent />;
 
