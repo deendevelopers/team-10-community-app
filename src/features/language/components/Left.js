@@ -29,8 +29,6 @@ const Left = () => {
           </select>
         </div>
       </div>
-      {/* Import the card component here  */}
-      <CommunityCard />
     </div>
   );
 };
