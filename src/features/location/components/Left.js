@@ -17,7 +17,7 @@ const Left = () => {
             id="location"
             onChange={(e) =>
               history.push(
-                "/communities" + location.search + "&location=" + e.target.value
+                "/community-list" + location.search + "&location=" + e.target.value
               )
             }
           >
