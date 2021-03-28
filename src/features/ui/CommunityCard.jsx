@@ -27,7 +27,9 @@ const CommunityCard = () => {
                 <p class="text-sm"> Longsight Community Church of the Nazarene, Tollgate Close, Manchester</p>
             </div>
             <div class="flex items-center justify-center space-x-3 md:justify-start">
-               
+               <button class="bg-blue rounded-3xl md:flex-row">
+                   <p> Read More... </p>
+               </button>
             </div>
             </div>
         </div>
