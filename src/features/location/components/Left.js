@@ -1,19 +1,22 @@
 import React, {useState} from "react";
+import { useHistory, useParams } from "react-router-dom";
 
 import locations from "../lib/locations"
 
 const Left = () => {
-    const [loc, setLoc] = useState(null);
-    console.log(loc);
+    const history = useHistory();
+    const params = useParams();
+
+    console.log(params.language)
 
     return (
         <div className="flex flex-col items-center justify-center w-screen h-screen">
             <h1 className="text-5xl mb-9">Where do you live?</h1>
             <div class="w-full md:w-1/3 flex flex-wrap mb-4 pr-0 md:pr-4">
                 <div class="relative w-full border-none">
-                    <select class="bg-white appearance-none border-none inline-block py-3 pl-3 pr-8 rounded leading-tight w-full mx-4"name="location"
+                    <select class="bg-white appearance-none border-none inline-block py-3 pl-3 pr-8 rounded leading-tight w-full mx-4" name="location"
                     id="location"
-                    onChange={(e)=>setLoc(e.target.value)}>
+                    onChange={(e) => history.push("/?language=" + e.target.value)}>
                         {locations.map((location) => (
                         <option value={location} key={location}>{location}</option>
                         ))}
