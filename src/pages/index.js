@@ -7,9 +7,9 @@ const RouterComponent = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/langauge" component={Language} />
-        <Route exact path="/" component={Language} />
-        <Route exact path="/location" component={Location} />
+        <Route path="/langauge" component={Language} />
+        <Route path="/location" component={Location} />
+        <Route path="/" component={Language} />
       </Switch>
     </Router>
   );
