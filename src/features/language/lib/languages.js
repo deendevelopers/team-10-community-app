@@ -1,3 +1,3 @@
-const languages = ["English", "Arabic", "Bengali"];
+const languages = ["Arabic", "Bengali", "English", "Spanish", "Urdu"];
 
 export default languages;
