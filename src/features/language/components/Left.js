@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
+import CommunityCard from "../../ui/CommunityCard";
 import languages from "../lib/languages";
 
 const Left = () => {
@@ -28,6 +29,8 @@ const Left = () => {
           </select>
         </div>
       </div>
+      {/* Import the card component here  */}
+      <CommunityCard />
     </div>
   );
 };
