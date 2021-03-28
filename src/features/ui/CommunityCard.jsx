@@ -2,10 +2,9 @@ import React from 'react'
 
 const CommunityCard = () => {
     return (
-        <div class="flex items-center justify-center min-h-screen ">
-        <div class="flex flex-col items-center w-full max-w-xs p-4 bg-white rounded-3xl md:flex-row">
+        <div class="min-h-screen ">
+        <div class="  max-w-xs p-4 bg-white rounded-3xl shadow-xl">
             <div >
-    
             </div>
             <div class="flex flex-col space-y-4 ">
             <div class="flex flex-col items-center md:items-start">
